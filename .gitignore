@@ -1,0 +1,25 @@
+# 음성 파일 (실제 사람의 목소리, 올리지 말 것)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.raw
+
+# 모델 / 엔진 / 화자 정보
+pretrained_models/
+*.pt
+*.pth
+*.onnx
+*.plan
+
+# 학습 데이터
+finetune_data/
+
+# 로그 / 백업 / 환경
+*.log
+*.bak
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
